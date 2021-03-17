@@ -110,4 +110,12 @@ En el segundo paso 'Get the output time' usamos la salida del paso anterior, 'he
 * En 'run:' le indicamos que ejecute un 'echo' imprimiendo la fecha.
 
 
+Una vez terminado, subimos los archivos al repo y comprobamos que todo funcione:
 
+![accion](./img/accion.JPG)
+
+# Super repositorio
+
+Enlazamos como submodulos los dos repositorios en un super repositorio como en la práctica anterior:
+
+![super](./img/super.JPG)
