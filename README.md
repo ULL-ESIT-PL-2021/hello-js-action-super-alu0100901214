@@ -88,4 +88,26 @@ Para llevar el manejo de errores de index.js, usamos el toolkit de core para mos
 
 ## Probando nuestra acción
 
+En nuestro segundo repositorio 'hello-js-action-use-alu0100901214', probaremos nuestra acción.
+Primero añadimos el archivo '.github/workflows/main.yml' al repositorio y añadimos los pasos necesarios para la ejecución de nuestra acción:
+
+```
+      - name: Hello world action step
+        uses: ULL-ESIT-PL-2021/hello-js-action-alu0100901214@v2
+        id: hello
+        with:
+          who-to-greet: 'Sergio'
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
+```
+
+El primer paso 'Hello world action step' indicamos que vamos a usar la acción de nuestro repositorio 'ULL-ESIT-PL-2021/hello-js-action-alu0100901214@v2', debido a algunos errores, he necesitado subir la versión del tag a v2.
+* Indicamos la id del paso como 'hello'
+* Y indicamos el valor de la variable 'who-to-greet' con mi nombre.
+
+En el segundo paso 'Get the output time' usamos la salida del paso anterior, 'hello' y sacamos la fecha en la que se ha ejecutado dicho paso.
+* En 'run:' le indicamos que ejecute un 'echo' imprimiendo la fecha.
+
+
 
