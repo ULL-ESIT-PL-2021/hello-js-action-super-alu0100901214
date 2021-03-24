@@ -1,0 +1,14 @@
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
+/home/linuxbrew/.linuxbrew/opt/ruby@2.7/bin/ruby -I /home/linuxbrew/.linuxbrew/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210324-48512-1oez0tu.rb extconf.rb
+creating Makefile
+
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR="
+compiling arena.c
+make: gcc-5: Command not found
+make: *** [Makefile:245: arena.o] Error 127
+
+make failed, exit code 2
