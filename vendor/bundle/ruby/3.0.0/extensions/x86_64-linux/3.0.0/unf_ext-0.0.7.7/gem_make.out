@@ -1,0 +1,16 @@
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/home/linuxbrew/.linuxbrew/opt/ruby/bin/ruby -I /home/linuxbrew/.linuxbrew/Cellar/ruby/3.0.0_1/lib/ruby/3.0.0 -r ./siteconf20210403-238611-t53ogx.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/usuario/hello-js-action-super-alu0100901214/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20210403-238611-lk06q0
