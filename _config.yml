@@ -1,4 +1,4 @@
-theme: minima
+theme: jekyll-theme-slate
 title: hello-js-action-super
 subtitle: 'Acción hello javascript action'
 description: 'Práctica consiste en crear nuestra propia acción'
